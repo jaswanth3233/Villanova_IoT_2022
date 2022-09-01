@@ -9,4 +9,5 @@ GitHub is the best repository to store and keep track of all my work so that I c
 # blog
 
 url : https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135907894702
+
 This is my blog for week-1 and you can take a look of it. Try to like and comment.
