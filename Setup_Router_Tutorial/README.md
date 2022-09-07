@@ -1,2 +1,15 @@
-# Initial Setup
+# Description
 
+The main objective of the seting up the router is to create our own Ip Address. 
+The router that i used is the GL.iNet Mini Smart Router which was suggested by my professor, in terms of it's configuration, portable and econimical.And he also suggested few other routers which has adavced configuartion than the present-one but there are expensive.
+I had already done these process in my home using my new router as an extender to my Wireless broadband.
+
+# Gear it up
+
+Initially i just unboxed the router and first we gona provide power supply to the router by plug in the power cable, which is back of the router and we gonna connect the USB cable to the powersource by plug-in to any usb port of laptop or any adapter. In the left side you will see two buttons, one is the reset button and the other is the mode switch. The reset button can be used when you are having problem with the router like forget Password and the switch mode is a slide button you can keep it in any mode. And the lights on router blinkup. And then we need to go the wifi settings and search for our router name. Name is on the buttom of the router, in my case name of the router is GL-MT300N-V2-50d, the name is the SSID(Service Set Identifier) which is unique for each router. And then you gonna enter the password which is down the SSID called key and the it is a default password. And After entering the details we will connect the network, but there is no wifi. We will be changing the SSID and the Password and then connect it to the broadband network.
+
+# Set-up
+
+To setup the router we need to browse the url: http://192.168.8.1 or if you are using different router you can follow the setup guide given by that company. After entering the url in the bowser it take you to the Admin Panel. Here first we got to select the prefered language. And the next page we got to set the admin password for the router like the login credentials. And then it goes to the admin panel pages there you need to go to Wireless section there you gonna change the SSID and password of your network by clicking modify. In my case i named my SSID as jaswanth_iot and password and after changing click apply. Later the network gets disconnected and you need to login again by checking the your new SSID and enter your password and you get connected to your network. Now you need to connect your router to the broadband network.
+Here you need to go to the Internet section and there you will be seeing 4 modes for connectivity, there are by using Cable(WAN) and the second one is the Repeater mode and the third is Tethering and the last one 3G/4G modem. You can use any type of connection. Where i had used the Repeater mode.
+In the Repeater box you will be seeing the scan with underlined, on clicking on scan it searches the networks that are present in your area. You search for name of your wifi and select it and enter the password and your router connects to the main wifi in the formn of repeater. So you can conform your network has proper connection by seeing in wifi settings and the other option by playing any content on youtube or by browsing.
