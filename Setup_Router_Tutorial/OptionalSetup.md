@@ -22,4 +22,4 @@ Provides Firewall protection.
 
 # Switch Mode
 
-It can be set by using switching to either to left or right side. And we can setup in which Toggle mode we need.
+It can be set by using switching to either of the modes. And we can setup in which Toggle mode we need.
