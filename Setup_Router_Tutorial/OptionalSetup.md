@@ -20,11 +20,6 @@ WireGuard client and server is a vpn which provides faster connection.
 
 Provides Firewall protection.
 
-# Network mode
-
-In this mode, the router can switch its mode. The different switch modes are router, extender , Access Point and Wireless Distribution System(WDS).
-The mode can be changed up on our needs.
-
 # Switch Mode
 
 It can be set by using switching to either to left or right side. And we can setup in which Toggle mode we need.
