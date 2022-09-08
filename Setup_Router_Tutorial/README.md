@@ -4,7 +4,7 @@ Configuring the router is primarily done to generate our own IP address. Among m
 
 # Gear it up
 
-When I opened the router's box, I realized that we need to plug in the power cable to the box before connecting the cable to any USB port on a laptop. Two buttons found on the left side; one is a reset button and the other is switch. When the router is experiencing issues, such as forgetting password, you can use the reset button. The switch button can be slided either ways to choose the respective mode. When the router's light start to flick,  go  the wifi settings and look for the name of your router. There is a SSID(GL-MT300N-V2-50d) given on the router which is unique and can be used to differentiate from other routers. The next step is to input the default password, which is located beneath the SSID key. After providing the necessary information we will enter into the network.  Before connecting it to the broadband network, we can create a new SSID and password.
+When I opened the router's box, I realized that we need to plug in the power cable to the box before connecting the cable to any USB port on a laptop. Two buttons found on the left side; one is a reset button and the other is switch. When the router is experiencing issues, such as forgetting password, you can use the reset button. The switch button can be slided either ways to choose the respective mode. When the router's light start to flick,  go  the wifi settings and look for the name of your router. There is a SSID(GL-MT300N-V2-50d) given on the router which is unique and can be used to differentiate from other routers. The next step is to input the default password, which is located beneath the SSID key.
 
 # Set-up
 
