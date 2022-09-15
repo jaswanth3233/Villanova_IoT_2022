@@ -35,8 +35,9 @@
 11. modify the settings in the dietpi.txt and dietpi-wifi.txt as follows:
   
 12. In dietpi-wifi.txt:
-       aWIFI_SSID[0]='jaswanth_iot'  
-       aWIFI_KEY[0]='**********'
+
+         aWIFI_SSID[0]='jaswanth_iot'  
+         aWIFI_KEY[0]='**********'
        
 13. And in dietpi.txt:
        
@@ -70,8 +71,10 @@
 
 
 18.Now we go to the terminal and run the following commands :
+        
         ssh root@IP ADDRESS OF PI
         password: dietpi(default)
+        
    It bootsup the pi.
         
  
@@ -118,6 +121,12 @@
 
 <img width="1440" alt="configuration" src="https://user-images.githubusercontent.com/112545596/190396480-ff2b6386-69cd-4082-9088-53d294129c34.png">
 Here it asked to enabled protection for the pi and i clicked ok.
+
+
+
+
+
+
 
 
 
