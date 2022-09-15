@@ -3,7 +3,7 @@
 
 ## Note 
    
-   Make sure the Raspberry Pi and the your laptop are connected to your router.
+   Make sure the Raspberry Pi and the laptop are connected to your router.
  
  
 ## Procedure
@@ -82,7 +82,7 @@
 
 
 
-3. Now we need to install the software that we had selected by going down and selecting the Install.
+3. Now we need to install the software by choosing the install option at the bottom of the menu.
 
 
 
@@ -99,7 +99,7 @@
 
 
 
--> Now a prompt appears for conformation that shows the list of softwares that we need to install and then click on OK and installation starts.
+-> Now a prompt appears for confirmation that shows the list of softwares that we need to install and then click on OK for the installation starts.
 
 
 
@@ -172,11 +172,11 @@
 
 ## 4.Setup of the Postgres
 
--> Now run the command and navigates you to postgres@dietpi:/root
+-> Now run the command so that it navigates you to postgres@dietpi:/root
             
             sudo su postgres
             
--> Create a user and connecting to the postgres and create a database
+-> Create a user and then connect to the postgres and then create a database
             
             createuser pi -P --interactive
             // enter the password that we had set it and for superuser u will enter no and for create new database and create new roles we will enter yes
@@ -240,9 +240,9 @@
 
 # 5. NODE-RED
 
--> Go to your preffered browser and type http://your_RPI_IP_Address:1880
+-> Go to your prefered browser and type http://your_RPI_IP_Address:1880
 
--> After browser popping up we can see node-red domain on the website it should be looking like this:
+-> In browser popping up we can see node-red domain on the website which should look like this:
        
        http://192.168.8.198:1880
        
@@ -334,7 +334,7 @@
 
 
 
--> Now we going to search and pull the trigger, template, Postgres and debug nodes from the top left search panel in the node-red web interface
+-> Now we are going to search and pull trigger, template, Postgres and debug nodes from the top left search panel in the node-red web interface
    later on wire the nodes in the given order.
    
             trigger->template->Postgres->debug
