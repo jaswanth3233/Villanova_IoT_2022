@@ -152,3 +152,22 @@ Now a prompt appears for conformation that shows the list of softwares that we n
 
 
 
+-> Now after completion of the installation we need to reboot the Pi.
+
+
+
+
+
+
+
+
+<img width="1440" alt="reboot" src="https://user-images.githubusercontent.com/112545596/190477927-991b5688-c0ef-4582-9ba1-1e5bc4398cf2.png">
+
+
+
+
+
+
+
+
+
