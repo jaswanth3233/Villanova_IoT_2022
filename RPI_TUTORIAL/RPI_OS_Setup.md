@@ -138,3 +138,8 @@ Here it asked to enabled protection for the pi and i clicked ok.
 
 
 
+
+
+
+22. IOT Platform Installation   
+            The software Installations: [IOT_Platform_Install.md](https://github.com/jaswanth3233/Villanova_IoT_2022/blob/main/RPI_TUTORIAL/IOT_Platform_Install.md)
