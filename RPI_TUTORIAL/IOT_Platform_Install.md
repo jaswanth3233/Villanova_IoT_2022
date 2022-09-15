@@ -241,6 +241,7 @@
 # 5. NODE-RED
 
 -> Go to your preffered browser and type http://your_RPI_IP_Address:1880
+
 -> After browser popping up we can see node-red domain on the website it should be looking like this:
        
        http://192.168.8.198:1880
@@ -314,9 +315,42 @@
 
 
 
--> Go to your preffered browser and type http://your_RPI_IP_Address:1880
--> After browser popping up we can see node-red domain on the website it should be looking like this:
+-> After restarting node-red command go to the node-red web interface and go to manage pallete and select install module category and install 
 
+            node-red-contrib-postgresql
+
+
+
+
+
+
+
+<img width="1440" alt="node install" src="https://user-images.githubusercontent.com/112545596/190505731-eee5844c-574a-4db5-85bf-694d4c10dac8.png">
+
+
+
+
+
+
+
+
+-> Now we going to search and pull the trigger, template, Postgres and debug nodes from the top left search panel in the node-red web interface
+   later on wire the nodes in the given order.
+   
+            trigger->template->Postgres->debug
+
+-> After establishing the connections it would be in this order
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="chart" src="https://user-images.githubusercontent.com/112545596/190507786-8b0d1916-0f14-4b33-bdb1-e795d24faa66.png">
 
 
 
