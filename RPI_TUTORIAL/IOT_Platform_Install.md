@@ -273,3 +273,52 @@
 
 
 
+
+
+
+-> The node-run has the updated version and the command to update is given below:
+
+         npm install -g npm@8.19.2
+         
+         
+         
+         
+         
+         
+         
+ <img width="1440" alt="npm update" src="https://user-images.githubusercontent.com/112545596/190502995-3334f23a-bb30-4ca7-b2fe-1d5c30cd2dce.png">
+
+
+
+
+
+
+
+
+-> Restart node-red with the command
+
+      dietpi-services restart node-red
+      
+      
+      
+      
+      
+      
+  <img width="1440" alt="restart" src="https://user-images.githubusercontent.com/112545596/190503434-3abb3195-5a61-431c-8b84-b40684212a19.png">
+
+
+
+
+
+
+
+
+-> Go to your preffered browser and type http://your_RPI_IP_Address:1880
+-> After browser popping up we can see node-red domain on the website it should be looking like this:
+
+
+
+
+
+
+
