@@ -10,7 +10,7 @@ installation. For other information -> [RPI_OS_Setup](https://github.com/jaswant
 
 ## IOT_Platform_Install.md
 
-This particular folder contains information about activites and installations which are done after booting the Rasberry PI using our own local wifi network. For other information ->[IOT_Platform_Install.md](https://github.com/jaswanth3233/Villanova_IoT_2022/blob/main/RPI_TUTORIAL/IOT_Platform_Install.md)
+This particular folder contains information about activites and installations which are done after booting the Rasberry PI using our own local wifi network. For other information -> [IOT_Platform_Install.md](https://github.com/jaswanth3233/Villanova_IoT_2022/blob/main/RPI_TUTORIAL/IOT_Platform_Install.md)
 
 
 
