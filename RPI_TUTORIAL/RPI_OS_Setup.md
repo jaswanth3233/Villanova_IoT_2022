@@ -31,24 +31,28 @@
 
 
 9. after completion please unplug the sd card from your laptop
-10. later on view the files in the sd card and it will be required to configure the network settings
+10. later on view the files in the sd card and it will be required to configure the network settings.
 11. modify the settings in the dietpi.txt and dietpi-wifi.txt as follows:
+  
 12. In dietpi-wifi.txt:
        aWIFI_SSID[0]='jaswanth_iot'  
        aWIFI_KEY[0]='**********'
+       
 13. And in dietpi.txt:
-       AUTO_SETUP_LOCALE=en_US.UTF-8
-       AUTO_SETUP_KEYBOARD_LAYOUT=us
-       AUTO_SETUP_TIMEZONE=America/New_York
-       AUTO_SETUP_NET_ETHERNET_ENABLED=0
-       AUTO_SETUP_NET_WIFI_ENABLED=1
-       AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
-       AUTO_SETUP_DHCP_TO_STATIC=1
-       AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
-       AUTO_SETUP_HEADLESS=1
-       AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
-       SURVEY_OPTED_IN=0
-       CONFIG_SERIAL_CONSOLE_ENABLE=1
+       
+       
+               AUTO_SETUP_LOCALE=en_US.UTF-8
+               AUTO_SETUP_KEYBOARD_LAYOUT=us
+               AUTO_SETUP_TIMEZONE=America/New_York
+               AUTO_SETUP_NET_ETHERNET_ENABLED=0
+               AUTO_SETUP_NET_WIFI_ENABLED=1
+               AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
+               AUTO_SETUP_DHCP_TO_STATIC=1
+               AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
+               AUTO_SETUP_HEADLESS=1
+               AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
+               SURVEY_OPTED_IN=0
+               CONFIG_SERIAL_CONSOLE_ENABLE=1
 
 14. And save the changes and eject the sd card.
 15. I had inserted the sd card into the Rasberry Pi.
@@ -93,6 +97,7 @@
 
 
 19. Now we re-enter the ssh and password which navigates to the blue terminal.
+ 
 20. Here we will be changing the password of both dietpi-software and unix user
 
 
