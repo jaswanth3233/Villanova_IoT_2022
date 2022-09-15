@@ -21,7 +21,11 @@
 
 
 
+
+
 9. <img width="1440" alt="burning image into sd card" src="https://user-images.githubusercontent.com/112545596/190391687-a7b1f06a-9a0d-4708-a001-c177052806b9.png">
+
+
 
 
 
@@ -52,7 +56,11 @@
 
 
 
+
+
 <img width="1440" alt="client_pi" src="https://user-images.githubusercontent.com/112545596/190393605-34ac59e9-9bec-4493-ba30-296c6096cf7d.png">
+
+
 
 
 
@@ -62,8 +70,12 @@
    It bootsup the pi.
         
  
- 
+
+
+
 <img width="1440" alt="boot-up pi" src="https://user-images.githubusercontent.com/112545596/190394611-15fc89b2-857b-416a-b62b-33378e12db7b.png">
+
+
 
 
 
@@ -71,7 +83,11 @@
 
 
 
+
+
 <img width="1440" alt="booy-up pi3" src="https://user-images.githubusercontent.com/112545596/190394830-51e339d4-badf-450e-af7a-a50692c46e28.png">
+
+
 
 
 
@@ -80,7 +96,11 @@
 
 
 
+
+
 <img width="1440" alt="change password" src="https://user-images.githubusercontent.com/112545596/190396076-20170769-a740-4ecc-a0ef-f3850f5fe6aa.png">
+
+
 
 
 
@@ -88,10 +108,23 @@
 
 
 
+
+
 <img width="1440" alt="configuration" src="https://user-images.githubusercontent.com/112545596/190396480-ff2b6386-69cd-4082-9088-53d294129c34.png">
-Here it just enabled protection for the pi and i clicked ok.
+Here it asked to enabled protection for the pi and i clicked ok.
 
 
 
 
-After all the setup steps we endup at main menu of the OS installation 
+
+After all the setup steps we endup at main menu of the OS installation.
+
+
+
+<img width="1440" alt="final " src="https://user-images.githubusercontent.com/112545596/190397985-179b6d51-a1fb-41d6-a689-715b89153d49.png">
+
+
+
+
+
+
