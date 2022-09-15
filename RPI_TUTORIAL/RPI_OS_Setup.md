@@ -7,7 +7,7 @@
 2. Raspberry Pi 4 2Gb and adapter and c-type cable.
 3. GL.iNet GL-MT300N-V2 portable mini travel wireless pocket router(Personal Network) and the network must be configured and ready to connect.
 4. laptop - I am using MacBook Air M1-chip and memory of 16GB.
-5. Lention usb c hub with hdmi,3 usb ports and sd card reader.
+5. Lention USB C hub with HDMI,3 USB ports and sd card reader.
 
 ## Setup
 
@@ -15,10 +15,10 @@
 2. I downloaded the balenaEtcher to burn the data into the sd card. url: https://www.balena.io/etcher/
 3. Download the Disc Image from the Diet Pi website 
 4. So I am choosing to use: ARMv8 64-bit image from the Diet pi Website: https://dietpi.com/downloads/images/DietPi_RPi-ARMv8-Bullseye.7z  
-5. later on unwrap the cocntents of the disc image and later on fetch that image from you local directory
+5. later on unwrap the contents of the disc image and later on fetch that image from you local directory
 6. Run the Balena Etcher application and upload the disc image you have downloaded 
 7. next step would be to select the target memmory drive for the disc image flash burn 
-8. I inserted  SD card into lention usb c hub and connected to the laptop and the etcher software will recognise the target location and after selecting your target memory and flash the disc image.
+8. I inserted SD card into lention usb c hub and then connected to the laptop. later etcher software will recognise the target location and after selecting your target memory and then flash the disc image.
 
 
 
@@ -56,7 +56,7 @@
                CONFIG_SERIAL_CONSOLE_ENABLE=1
 
 14. And save the changes and eject the sd card.
-15. I had inserted the sd card into the Rasberry Pi.
+15. I inserted the sd card into the Rasberry Pi.
 16. And after powering up the pi you will see the red led turn on and the green light will start to blink and Wait until the green light has stopped           blinking. It took me 6 minutes for the green light to stop blinking.
 17. The next step would be logging into the Router Admin panel and check whether pi is connected to the network or not. If it's connected then you will see     the IP Address of the pi.
 
@@ -127,7 +127,7 @@ Here it asked to enabled protection for the pi and i clicked ok.
 
 
 
-21.After all the setup steps we endup at main menu of the OS installation.
+21.After completing entire setup process we endup at main menu of the OS installation.
 
 
 
