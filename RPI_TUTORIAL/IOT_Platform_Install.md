@@ -240,7 +240,8 @@
 
 # 5. NODE-RED
 
--> Connect to node-red to see that it is running using it RPI Static IPaddress
+-> Go to your preffered browser and type http://your_RPI_IP_Address:1880
+-> After browser popping up we can see node-red domain on the website it should be looking like this:
        
        http://192.168.8.198:1880
        
