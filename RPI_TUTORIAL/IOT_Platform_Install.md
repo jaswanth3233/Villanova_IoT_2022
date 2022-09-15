@@ -99,7 +99,7 @@
 
 
 
-Now a prompt appears for conformation that shows the list of softwares that we need to install and then click on OK and installation starts.
+-> Now a prompt appears for conformation that shows the list of softwares that we need to install and then click on OK and installation starts.
 
 
 
