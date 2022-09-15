@@ -7,6 +7,7 @@
 2. Raspberry Pi 4 2Gb and adapter and c-type cable.
 3. GL.iNet GL-MT300N-V2 portable mini travel wireless pocket router(Personal Network) and the network must be configured and ready to connect.
 4. laptop - I am using MacBook Air M1-chip and memory of 16GB.
+5. Lention usb c hub with hdmi,3 usb ports and sd card reader.
 
 ## Setup
 
@@ -17,22 +18,22 @@
 5. later on unwrap the cocntents of the disc image and later on fetch that image from you local directory
 6. Run the Balena Etcher application and upload the disc image you have downloaded 
 7. next step would be to select the target memmory drive for the disc image flash burn 
-8. Insert your SD card to the laptop and the etcher software will recognise the target location and after selecting your target memory and flash the disc image.
+8. I inserted  SD card into lention usb c hub and connected to the laptop and the etcher software will recognise the target location and after selecting your target memory and flash the disc image.
 
 
 
 
 
-9. <img width="1440" alt="burning image into sd card" src="https://user-images.githubusercontent.com/112545596/190391687-a7b1f06a-9a0d-4708-a001-c177052806b9.png">
+    <img width="1440" alt="burning image into sd card" src="https://user-images.githubusercontent.com/112545596/190391687-a7b1f06a-9a0d-4708-a001-c177052806b9.png">
 
 
 
 
 
-10. after completion please unplug the sd card from your laptop
-11. later on view the files in the sd card and it will be required to configure the network settings
-12. modify the settings in the dietpi.txt and dietpi-wifi.txt as follows:
-13. In dietpi-wifi.txt:
+9. after completion please unplug the sd card from your laptop
+10. later on view the files in the sd card and it will be required to configure the network settings
+11. modify the settings in the dietpi.txt and dietpi-wifi.txt as follows:
+12. In dietpi-wifi.txt:
        aWIFI_SSID[0]='jaswanth_iot'  
        aWIFI_KEY[0]='**********'
 13. And in dietpi.txt:
@@ -117,7 +118,7 @@ Here it asked to enabled protection for the pi and i clicked ok.
 
 
 
-After all the setup steps we endup at main menu of the OS installation.
+21.After all the setup steps we endup at main menu of the OS installation.
 
 
 
