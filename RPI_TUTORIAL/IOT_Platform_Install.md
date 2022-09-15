@@ -170,7 +170,7 @@
 
 
 
-4.Setup of the Postgres
+## 4.Setup of the Postgres
 
 -> Now run the command and navigates you to postgres@dietpi:/root
             
@@ -230,6 +230,43 @@
 
 <img width="1440" alt="postgresql result" src="https://user-images.githubusercontent.com/112545596/190495576-1a346091-045c-4d96-9d01-0811c3bedf2b.png">
 
+
+
+
+
+
+
+
+
+# 5. NODE-RED
+
+-> Connect to node-red to see that it is running using it RPI Static IPaddress
+       
+       http://192.168.8.198:1880
+       
+ 
+ 
+ 
+ 
+ 
+ <img width="1440" alt="NODERED" src="https://user-images.githubusercontent.com/112545596/190501271-d23be699-51ee-47c5-b6de-5f47942014ea.png">
+
+
+
+
+
+
+
+-> Install node-red-contrib-re-postgres in terminal
+
+         npm install node-red-contrib-re-postgres
+         
+         
+         
+         
+         
+         
+   <img width="1440" alt="npm" src="https://user-images.githubusercontent.com/112545596/190501720-d6026cec-dac6-43a9-bbc8-d69634c3e017.png">
 
 
 
