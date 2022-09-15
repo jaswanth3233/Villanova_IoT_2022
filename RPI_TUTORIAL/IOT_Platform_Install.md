@@ -71,7 +71,8 @@
    
    
    
-   <img width="1440" alt="postgres" src="https://user-images.githubusercontent.com/112545596/190475390-542fccdd-b87d-4248-b9cd-1f5dc4cce8b5.png">
+   
+<img width="1440" alt="postgresql" src="https://user-images.githubusercontent.com/112545596/190477161-fb6c54b7-40f2-4bbc-a580-5a49d2676ec9.png">
 
 
 
