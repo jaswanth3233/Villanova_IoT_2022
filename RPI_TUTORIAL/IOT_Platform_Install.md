@@ -172,5 +172,67 @@
 
 4.Setup of the Postgres
 
+-> Now run the command and navigates you to postgres@dietpi:/root
+            
+            sudo su postgres
+            
+-> Create a user and connecting to the postgres and create a database
+            
+            createuser pi -P --interactive
+            // enter the password that we had set it and for superuser u will enter no and for create new database and create new roles we will enter yes
+            
+           // for connection and create database
+           
+           psql
+           create database test;
+           
+           
+           
+-> Now exit from the Psql shell by pressing control+D twice and now you enter into the pi user( root@dietpi) and login back into the postgres shell by using these commands
+           
+         sudo su postgres
+           
+         psql test
+
+         create table people (name text, company text);
+         
+  
+   
+   
+   
+   
+   
+  <img width="1440" alt="postgres" src="https://user-images.githubusercontent.com/112545596/190494027-272b2118-1009-48cd-823a-e31db3fba651.png">
+
+
+
+
+
+
+
+
+
+-> Now add data into the table 'people'
+         
+         insert into people values ('Jaswanth', 'Raspberry Pi Foundation');
+
+         insert into people values ('Rama', 'Red Hat');
+         
+-> test that the data persists:
+
+         select * from people;
+
+
+
+
+
+
+
+<img width="1440" alt="postgresql result" src="https://user-images.githubusercontent.com/112545596/190495576-1a346091-045c-4d96-9d01-0811c3bedf2b.png">
+
+
+
+
+
 
 
