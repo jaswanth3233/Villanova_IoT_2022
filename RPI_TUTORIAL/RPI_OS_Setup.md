@@ -127,11 +127,6 @@ Here it asked to enabled protection for the pi and i clicked ok.
 
 
 
-
-
-
-
-
 21.After all the setup steps we endup at main menu of the OS installation.
 
 
