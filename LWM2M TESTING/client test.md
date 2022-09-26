@@ -70,6 +70,13 @@ I had used 2 different types of  client test on my PI
   
   
   
+  
+  
+  
+  
+  
+  
+  
   ## Iperf
   
   
