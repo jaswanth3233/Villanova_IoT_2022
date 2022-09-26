@@ -53,7 +53,8 @@ Light Weight Machine to Machine is considered as a protocol used for the device 
  
  
  
- <img width="1440" alt="java install" src="https://user-images.githubusercontent.com/112545596/192337118-cf956d5e-00f1-4f69-a153-35108b928b21.png">
+ <img width="1440" alt="java install" src="https://user-images.githubusercontent.com/112545596/192348679-10a7c44f-723e-4ef6-9451-02426f965bf8.png">
+
 
 
 
