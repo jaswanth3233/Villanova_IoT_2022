@@ -268,7 +268,234 @@
 find the port number /dev/ttyUSB[PORTNUMBER]
 
       ls -l /dev/ttyUSB*
-     
+      sudo chmod 666 /dev/ttyUSB0
+      idf.py -p 0 flash
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="ttyusb" src="https://user-images.githubusercontent.com/112545596/192458024-ba964039-1d59-4ea2-a198-ae67987f726c.png">
+
+
+
+
+
+
+
+
+
+
+
+-> Now by running this command we can see the output which continues goes on like the infinite loop.
+
+        idf.py -p /dev/ttyUSB0 monitor
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<img width="1440" alt="helloworld output" src="https://user-images.githubusercontent.com/112545596/192458441-1dbce537-5efd-444d-b8b4-dd5071c8800f.png">
+
+
+
+
+
+
+
+
+
+
+-> To stop this process we open another terminal and login into the PI agian and the enter the command :
+
+       ps aux | grep monitor
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+  <img width="1440" alt="grep" src="https://user-images.githubusercontent.com/112545596/192459039-f7d3986f-aad3-4ff6-842e-415544eb66d6.png">
+
+
+
+
+* Now we can kill the process.
+
+
+
+
+
+# Blink Project
+
+## Procedure
+
+-> We need to create a new directory 
+
+        . ~/esp/esp-idf/export.sh
+        cd ~/esp
+        cp   -r $IDF_PATH/examples/get-started/blink .
+        
+        
+        
+        
+        
+        
+<img width="928" alt="new directory 1" src="https://user-images.githubusercontent.com/112545596/192460896-df0f53e6-abc8-4fce-882d-737e0b9196aa.png">
+
+
+
+
+
+
+
+
+
+-> Now we need to build the blink project
+
+        . ~/esp/esp-idf/export.sh
+        cd $IDF_PATH/examples/get-started/blink
+        
+        
+        
+        
+        
+        
+        
+        
+ <img width="845" alt="new directory" src="https://user-images.githubusercontent.com/112545596/192461370-334ba6c4-adec-4d0d-b439-f50b22bd0f94.png">
+
+
+
+
+
+
+
+<img width="1440" alt="build blink" src="https://user-images.githubusercontent.com/112545596/192461494-3887b468-c133-4c6c-880e-95206e5a7850.png">
+
+
+
+
+
+
+        idf.py set-target esp32
+        idf.py fullclean
+        idf.py menuconfig
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <img width="1440" alt="menuconfig" src="https://user-images.githubusercontent.com/112545596/192461664-7765280f-c801-49dd-8e7b-badc432d6f8c.png">
+
+
+* Here just click save[S] and the Quit[Q] 
+
+
+
+
+
+
+
+
+-> Here we are going to build the code and look into code
+
+        cd $IDF_PATH/examples/get-started/blink idf.py build
+        cd ~/esp/esp-idf/examples/get-started/blink/main
+        nano blink_example_main.c
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="build code" src="https://user-images.githubusercontent.com/112545596/192462516-9e34ab8c-fa24-4efc-9833-c153dbc18275.png">
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="program" src="https://user-images.githubusercontent.com/112545596/192462589-0a3a0edc-a178-4ad8-a015-80e1c14955f5.png">
+
+
+
+
+
+
+
+
+
+-> Here we are going to change the settings in menuconfig
+        
+        cd ~/esp/esp-idf/examples/get-started/blink
+        idf.py menuconfig
+        
+-> Here follow the steps to change the configurations
+        
+        i. navigate to the "Example Configuration" and hit enter
+        ii. there are two settings Blink GPIO number and Blink Perion in ms
+        iii. change the blink period in ms to 5 seconds ( 5000 ) 
+        iv. save the results to the sdkconfig (S then Q )
+        
+        
+        
+        
+        
+        
+        
+ 
+ 
+ <img width="1440" alt="blink 1000" src="https://user-images.githubusercontent.com/112545596/192463347-691e86c5-e63e-416c-a583-d4ca4fd192d2.png">
+
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="blink 5000" src="https://user-images.githubusercontent.com/112545596/192463431-cf163278-24de-46d6-aa14-3bfa1103b4c0.png">
+
+
+
+
+
+
+
+
+
+-> After this you need to flash into esp32, which is same as for the hello world
+
+
 
 
 
