@@ -496,6 +496,20 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 -> After this you need to flash into esp32, which is same as for the hello world
 
 
+-> And this the output
+
+
+
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/112545596/192651264-7d574e47-5d18-4b46-acef-362639ca0067.mov
 
 
 
