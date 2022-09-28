@@ -107,3 +107,26 @@
 
 
 
+## Anjay Libraries
+
+-> retrieving the anjay code
+
+           cd ~/projects
+           git clone https://github.com/AVSystem/Anjay
+           
+           
+           
+           
+           
+           
+           
+           
+           
+ <img width="728" alt="retrive ajay code" src="https://user-images.githubusercontent.com/112545596/192658164-4ee59dfa-10a0-4d7d-bacc-1b139a4c79d1.png">
+
+
+
+
+
+
+
