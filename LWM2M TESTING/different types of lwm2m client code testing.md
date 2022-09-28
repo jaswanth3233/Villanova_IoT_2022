@@ -132,3 +132,90 @@
 
 
 
+-> Building the anjay code
+
+           cd ~/projects/Anjay
+           git submodule update --init
+           cmake . -DDTLS_BACKEND="mbedtls"
+           make -j
+           
+           
+           
+           
+<img width="1406" alt="build " src="https://user-images.githubusercontent.com/112545596/192660756-158a719b-f393-4299-95bd-94ff5a754f14.png">
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="installing anjay library" src="https://user-images.githubusercontent.com/112545596/192660830-b31c4dd0-83b6-488b-827c-3bea82f6b9bc.png">
+
+
+
+
+
+
+
+
+
+* make -j
+
+
+
+
+<img width="1440" alt="make -j" src="https://user-images.githubusercontent.com/112545596/192661082-0258f29d-617d-4f29-9b70-55aacb579c8a.png">
+
+
+
+
+
+
+
+
+
+-> Now we will be seeing our PI in the third party website. Now simply open the below link and it will like this
+
+                https://leshan.eclipseprojects.io/#/clients
+                
+                
+                
+                
+                
+                
+                
+ <img width="1440" alt="leshan page" src="https://user-images.githubusercontent.com/112545596/192661438-3b16be61-1120-4f85-8de9-67de6215c6a4.png">
+
+
+
+
+
+
+
+
+
+-> now run this command we will be sseing our PI
+
+             ./output/bin/demo --endpoint-name $(hostname) --server-uri coap://leshan.eclipseprojects.io:5683
+             
+             
+             
+             
+             
+             
+ * The one that is highlated is my PI.
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="output" src="https://user-images.githubusercontent.com/112545596/192661684-13005d51-ba30-443c-84cb-6a93f353f180.png">
+
+               
