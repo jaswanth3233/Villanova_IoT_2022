@@ -219,3 +219,213 @@
 <img width="1440" alt="output" src="https://user-images.githubusercontent.com/112545596/192661684-13005d51-ba30-443c-84cb-6a93f353f180.png">
 
                
+## Build the ANJAY client
+
+-> Now move to the anjay-esp32-client directory and setup the local enironment for using the esp tools
+
+                cd ~/projects/Anjay-esp32-client
+                . $HOME/esp/esp-idf/export.sh
+                idf.py set-target esp32 
+
+
+
+
+
+
+
+
+
+
+<img width="1207" alt="local environment" src="https://user-images.githubusercontent.com/112545596/192841448-400c4c87-1c51-413b-ad30-7e5daf362698.png">
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1166" alt="idfpysettarget" src="https://user-images.githubusercontent.com/112545596/192841751-3199d203-a2f7-4882-b6ab-0ef1f62cb868.png">
+
+
+
+
+
+
+
+
+
+
+
+-> Setup the device requirements:
+        
+            cd ~/projects/Anjay-esp32-client
+            idf.py menuconfig
+            
+            
+            
+            
+            
+            
+<img width="1440" alt="setupdevicerequirements" src="https://user-images.githubusercontent.com/112545596/192842188-841e7098-9746-47fa-94e4-d1cfbe949e0a.png">
+
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="menuconfig" src="https://user-images.githubusercontent.com/112545596/192842657-a8cb8364-284f-429f-9dfe-e1dd35b1b24f.png">
+
+
+
+
+
+
+
+
+
+
+
+
+* navigate to "Component->" and select config/anjay-esp32-client:
+        
+        Setup your config to be: (anjay-esp32-client) Endpoint name (coap://{LESHAN_SERVER_IP}:5683) Server URI Choose socket (UDP) ---> Choose security mode (Non-secure connection) --->
+
+        navigate to "Board - > "
+
+        navigate to "Client options ->"
+
+
+
+
+
+
+
+
+<img width="1440" alt="client options" src="https://user-images.githubusercontent.com/112545596/192843523-57a3e78c-f638-439e-846b-a03586af4664.png">
+
+
+
+
+
+
+
+
+
+
+
+        Change Server URI from coaps://try-anjay.avsystem.com:5684 to coaps://YOUR_LESHAN_SERVER_IP_ADDR:5684 I used coaps://192.168.8.224:5684 Your IP my         be different
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<img width="1213" alt="change url" src="https://user-images.githubusercontent.com/112545596/192844457-8f234a45-7f03-46ce-af80-c5db58f17b6f.png">
+
+
+
+
+
+
+
+
+
+* navigate to "WiFi ->" To enter your IOT ROUTER WIFI SSID and key to allow the esp32 acccess to your router and PI.
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="wifi" src="https://user-images.githubusercontent.com/112545596/192844811-2e13a5f0-61af-48c8-b6fe-97e581764735.png">
+
+
+
+
+
+
+
+
+
+
+-> Build code:
+
+        cd ~/projects/Anjay-esp32-client
+        idf.py build
+        
+        
+        
+        
+        
+        
+-> Now find the port and perform flashing.
+
+        ls -l /dev/ttyUSB*
+        
+        
+        
+        
+        
+        
+  <img width="704" alt="port" src="https://user-images.githubusercontent.com/112545596/192845851-5cfe61a6-0c45-40bc-903f-41a8b41804df.png">
+
+
+
+
+
+
+
+
+
+-> change the port number in this line to load the code 
+
+        cd ~/projects/Anjay-esp32-client
+        sudo chmod 666 /dev/ttyUSB0
+        idf.py -p 0 flash
+        
+        
+        
+        
+        
+        
+        
+        
+<img width="1440" alt="flashing" src="https://user-images.githubusercontent.com/112545596/192846242-b94b8959-b2ce-4c01-8279-3e7064dad443.png">
+
+
+
+
+
+
+
+
+-> I had found my esp32 connected to my wifi network
+
+
+
+
+
+
+
+
+<img width="1440" alt="esp32 connected to network" src="https://user-images.githubusercontent.com/112545596/192846763-bb672c67-6d1f-4a26-aee4-d71d24df68c6.png">
+
