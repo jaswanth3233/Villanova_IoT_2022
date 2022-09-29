@@ -1,7 +1,7 @@
 
 # Install Software to Build ESP32 code
 
--> Here we are going to buid the Hello world program and the Blink project on ESP32
+-> We are going to build the Hello world program and the Blink project on ESP32
 
 ## Requirements
 
@@ -83,7 +83,7 @@
 
 
 
--> Now install the esp-idf by following the commands
+-> Install the esp-idf by following the commands
 
         cd ~/esp/esp-idf
         ./install.sh all
@@ -150,7 +150,7 @@
 
 
 
--> Test with Hello-world project and then setup the directory and after setting up we need to connect the esp32 to the PI using the usb cable.
+-> Test with Hello-world project and then setup the directory. After setting up we need to connect the esp32 to the PI using the usb cable.
 
         cd ~/esp
         cp   -r $IDF_PATH/examples/get-started/hello_world .
@@ -197,7 +197,7 @@
 
 
 
--> Now after entering the menuconfig command, it nagivates to the page then simply click Save [S] then quit [Q] the config menu now build the hello-world    program
+-> After entering the menuconfig command, it nagivates to the page then simply click Save [S] then quit [Q] the config menu will now build the hello-world    program
 
 
 
@@ -242,7 +242,7 @@
 
 
 
--> Now we have to find the usb that the esp is connected by
+-> Now we have to find the usb that the esp is connected to
 
        lsusb
        
@@ -292,7 +292,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
--> Now by running this command we can see the output which continues goes on like the infinite loop.
+-> Wgen we run the below command we can see the output as an infinite loop.
 
         idf.py -p /dev/ttyUSB0 monitor
         
@@ -318,7 +318,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
--> To stop this process we open another terminal and login into the PI agian and the enter the command :
+-> To stop this process we open another terminal and login into PI agian and enter the below command :
 
        ps aux | grep monitor
        
@@ -336,7 +336,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
-* Now we can kill the process.
+* We can kill the process.
 
 
 
@@ -367,7 +367,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
--> Now we need to build the blink project
+-> We need to build the blink project
 
         . ~/esp/esp-idf/export.sh
         cd $IDF_PATH/examples/get-started/blink
@@ -417,7 +417,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
--> Here we are going to build the code and look into code
+-> We are going to build the code and look into it
 
         cd $IDF_PATH/examples/get-started/blink idf.py build
         cd ~/esp/esp-idf/examples/get-started/blink/main
@@ -456,7 +456,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
         cd ~/esp/esp-idf/examples/get-started/blink
         idf.py menuconfig
         
--> Here follow the steps to change the configurations
+-> Follow the below steps to change the configurations
         
         i. navigate to the "Example Configuration" and hit enter
         ii. there are two settings Blink GPIO number and Blink Perion in ms
@@ -493,7 +493,7 @@ find the port number /dev/ttyUSB[PORTNUMBER]
 
 
 
--> After this you need to flash into esp32, which is same as for the hello world
+-> After this you need to flash into esp32, which is same as the hello world
 
 
 -> And this the output
