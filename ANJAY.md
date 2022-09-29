@@ -6,14 +6,14 @@
 # Procedure
 
 
--> We are going to start the process by login in to the PI
+-> Start the process by logging into the PI
 
         ssh dietpi@PI_IPADDRESS
         
  
 ## Installing c compiler
 
--> Here i am checking wethere the c compiler is installled or not by using this command:
+-> Check wethere the c compiler is installled or not by using the below command:
 
           gcc -v
           
@@ -177,7 +177,7 @@
 
 
 
--> Now we will be seeing our PI in the third party website. Now simply open the below link and it will like this
+-> We will see our PI in the third party website. Now simply open the below link ehich will look like this
 
                 https://leshan.eclipseprojects.io/#/clients
                 
@@ -197,7 +197,7 @@
 
 
 
--> now run this command we will be sseing our PI
+-> Run the below command to see our PI
 
              ./output/bin/demo --endpoint-name $(hostname) --server-uri coap://leshan.eclipseprojects.io:5683
              
@@ -377,7 +377,7 @@
         
         
         
--> Now find the port and perform flashing.
+-> Fnd the port and perform flashing.
 
         ls -l /dev/ttyUSB*
         
@@ -418,7 +418,7 @@
 
 
 
--> I had found my esp32 connected to my wifi network
+-> I found my esp32 connected to my wifi network
 
 
 
@@ -428,5 +428,4 @@
 
 
 <img width="1440" alt="esp32 connected to network" src="https://user-images.githubusercontent.com/112545596/192846763-bb672c67-6d1f-4a26-aee4-d71d24df68c6.png">
-
 
