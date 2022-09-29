@@ -16,7 +16,7 @@ Light Weight Machine to Machine is considered as a protocol used for the device 
  
 ## Install development environment on PI
 
--> In the terminal enter dietpi-software and download the softwares by selecting the required software by entering the keyword Git and Java JDK and then      clicking spacebar and then go to install software then we will be seeing the list of softawres that we had selected and the then click ok to install.
+-> In the terminal enter dietpi-software and download the required softwares by entering the keyword Git and Java JDK and then click spacebar to install software. Once the spacebar is hit all the list of softawres that are selected will be shown then click ok to install.
    
    
         sudo dietpi-software
@@ -70,24 +70,24 @@ Light Weight Machine to Machine is considered as a protocol used for the device 
 ## Install Maven on the Raspberry Pi
 
 
--> Here we are going to create a directory called download and in the directory we are going to istall the apache maven and unpack the package.
+-> Create a directory called download and in that directory install apache maven and unpack the package.
 
         mkdir download
         cd download
         wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
         unpacking : tar xzvf apache-maven-3.8.6-bin.tar.gz
  
--> Here we are going to check whether maven is insatlled or not by entering the command:
+-> Check whether maven is installed or not by entering the below command:
 
           mvn -v
           
           
--> Here we are going to add path for environment variable for java and the maven.
+-> Add the below paths in the environment variable for java and maven.
 
           echo 'PATH="${PATH}:~/download/apache-maven-3.8.6/bin"' >>  ~/.bashrc
           sudo echo 'JAVA_HOME="/usr/lib/jvm/java-17-openjdk-arm64"' >> ~/.bashrc
           
--> And to check the contents existed or not enter:
+-> Enter the below check to check the existence of file contents and then hit enter:
           
           nano ~/.bashrc
           
@@ -208,18 +208,18 @@ Light Weight Machine to Machine is considered as a protocol used for the device 
   
   
   
--> No enter the url to Connect on Leshan demo UI
+-> Now enter the url to Connect to Leshan demo UI
 
           http://RPI_IPADDR:8080
           
--> run the leshan client to add it to the page
+-> Run the leshan client to add it to the page
 
          java -jar leshan-client-demo/target/leshan-client-demo-*-SNAPSHOT-jar-with-dependencies.jar
          
          
          
          
- -> Here in the leshan page we wii be seeing your Dietpi registered
+ -> In the leshan page we wii be seeing your Dietpi registered
  
  
  
