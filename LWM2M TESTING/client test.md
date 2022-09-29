@@ -1,7 +1,7 @@
 
 # Client testing on Raspberry PI
 
-I had used 2 different types of  client test on my PI
+I used 2 different types of client test on my PI
   
   ## * Speed Test
   ## * Iperf
@@ -9,7 +9,7 @@ I had used 2 different types of  client test on my PI
   
  ## Speed Test
  
- -> First i checked whether my Raspberry pi is updated to latest version or by entering the following command PI gets updated to the latest version.
+ -> Enter the below command so that PI gets updated to the latest version.
  
           sudo apt update
           
@@ -26,7 +26,7 @@ I had used 2 different types of  client test on my PI
 
 
 
--> After updating the PI, then by using the command i installed the speed test client into my PI.
+-> After updating the PI, by using the command below I installed the speed test client into my PI.
   
           sudo apt install speedtest-cli
           
@@ -45,7 +45,7 @@ I had used 2 different types of  client test on my PI
 
 
 
--> Then we can test the speed of internet by entering the command, we can the download and the upload speed
+-> Then we can test the speed of internet by entering the command, we can see both download and the upload speed
 
             speedtest-cli
             
@@ -104,7 +104,7 @@ I had used 2 different types of  client test on my PI
 
 
 
--> Here we going to check whether there are connection to server by using this command:
+-> Check whether there is connection to server by using this command:
 
           iperf -s
           
@@ -125,7 +125,7 @@ I had used 2 different types of  client test on my PI
 
 
 
--> Now just exit by clicking control + C and the enter the command, u will be seeing the output
+-> Exit by clicking control + C and then enter the command to get the below output
 
 
 
