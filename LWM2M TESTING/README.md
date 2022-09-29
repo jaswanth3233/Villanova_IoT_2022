@@ -1,7 +1,7 @@
 
 # LWM2M Testing Using Raspberry PI 
 
-Light Weight Machine to Machine is considered as a protocol used for the device management. The main objective of LWM2M is to progress a quick movable client-server designation to indulge machine to machine services.
+Light Weight Machine to Machine is considered as a protocol used for the device management. The main objective of LWM2M is to progress a quick movable client-server designation to include machine to machine services.
 
 
 ## Steps
@@ -16,7 +16,7 @@ Light Weight Machine to Machine is considered as a protocol used for the device 
  
 ## Install development environment on PI
 
--> In the terminal enter dietpi-software and dowmload the softwares by selecting the required software by entering the keyword Git and Java JDK and then      clicking spacebar and then go to install software then we will be seeing the list of softawres that we had selected and the then click ok to install.
+-> In the terminal enter dietpi-software and download the softwares by selecting the required software by entering the keyword Git and Java JDK and then      clicking spacebar and then go to install software then we will be seeing the list of softawres that we had selected and the then click ok to install.
    
    
         sudo dietpi-software
