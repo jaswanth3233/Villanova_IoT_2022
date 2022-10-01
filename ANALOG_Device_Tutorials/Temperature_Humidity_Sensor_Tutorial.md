@@ -296,3 +296,60 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
         cd WiringPi
         
+-> Now we nned to write the code for temperature and humidity using the nano command. Here an empty text area appears where you need to enter the code. 
+
+        nano temp.c // Here temp is the program name.
+        
+-> The Program : 
+
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="program" src="https://user-images.githubusercontent.com/112545596/193401459-c82e688a-72dd-478c-9288-42f821e42924.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> In the program you need to change the counter from 16 to 50. 
+
+        if(counter > 16) to if (counter > 50)
+        
+-> Now execute the program by running the following commands:
+
+        for compliation : gcc -o example example.c -lwiringPi -lwiringPiDev // Here the example is the program name. You can enter your program name.
+        
+        My program compliation step : [dietpi@DietPi:~/WiringPi$ gcc -o temp temp.c
+        
+        for execution or running :  sudo ./example
+        
+        My program execution step : sudo ./temp
+        
+        
+        
+        
+        
+        
+        
+ <img width="925" alt="output" src="https://user-images.githubusercontent.com/112545596/193402131-8837b081-dcd6-4740-89ce-7b0c0e1b7104.png">
+
+
+
+
+
