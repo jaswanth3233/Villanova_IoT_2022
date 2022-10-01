@@ -342,11 +342,21 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
         My program execution step : sudo ./temp
         
         
+ -> Output:     
         
         
         
-        
-        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  <img width="925" alt="output" src="https://user-images.githubusercontent.com/112545596/193402131-8837b081-dcd6-4740-89ce-7b0c0e1b7104.png">
 
 
