@@ -52,8 +52,11 @@
 -> Output Signal: digital signal via single-bus
 
 -> Operating Range and Accuracy (Humidity): 20-80% RH; +/-5% RH
+
 -> Operating Range and Accuracy (Temperature): 0 to 50 C; +/-2% C
+
 -> Average Sending Period: 2 seconds
+
 -> Dimensions (excluding pins): 12.6mm (0.5") length x 5.83mm (0.23") width x 16mm (0.63") height
 
 ## Raspberry Pi 4 B+ 
@@ -109,14 +112,23 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 -> Distribution Strips are two
+
 -> Wire Size is 21 to 26 AWG wire
+
 -> Tie Points are two hundred
+
 -> Withstanding Voltage is 1,000V AC
+
 -> Tie points within IC are 630
+
 -> Insulation Resistance is DC500V or 500MΩ
+
 -> Dimension is 6.5*4.4*0.3 inch
+
 -> Rating is 5Amps
+
 -> ABS plastic through color legend
+
 ->ABS heat Distortion Temperature is 183° F (84° C)Hole or Pitch Style is 2.54mm
 
 
