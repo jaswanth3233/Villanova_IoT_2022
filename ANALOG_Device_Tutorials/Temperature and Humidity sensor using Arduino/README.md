@@ -12,3 +12,5 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 ## Software Requirements
 
+-> Download the Arduino IDE from the website : https://www.arduino.cc/en/software
+-> And 
