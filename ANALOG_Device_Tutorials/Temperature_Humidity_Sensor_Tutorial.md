@@ -48,7 +48,9 @@
         3. Not used 
         4. Ground
 -> Supply Voltage: 3.5 to 5.5V
+
 -> Output Signal: digital signal via single-bus
+
 -> Operating Range and Accuracy (Humidity): 20-80% RH; +/-5% RH
 -> Operating Range and Accuracy (Temperature): 0 to 50 C; +/-2% C
 -> Average Sending Period: 2 seconds
