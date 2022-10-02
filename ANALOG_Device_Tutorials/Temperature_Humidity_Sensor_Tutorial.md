@@ -164,7 +164,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> In the connecting wires there are male to male, male to female and female to female.
+-> In the Jumper wires there are male to male, male to female and female to female.
 
 
 
