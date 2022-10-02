@@ -1,6 +1,6 @@
 # Testing Temperature/Humidity Sensor on My RPI
 
-  Here we are going to test the DHT11 sensor with PI. The DHT11 sensor which records the temperature and humidity.
+We are going to test the DHT11 sensor with PI. The DHT11 sensor is used to detect temperature and humidity in the surroundings.
 
 ## Required Equipment
 
@@ -45,7 +45,7 @@
 -> The ports in DHT11 
         1. vcc(+)
         2. Signal or data
-        3. Not used 
+        3. No use 
         4. Ground
 -> Supply Voltage: 3.5 to 5.5V
 
@@ -111,7 +111,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> Distribution Strips are two
+-> Two Distribution Strips
 
 -> Wire Size is 21 to 26 AWG wire
 
@@ -148,7 +148,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 ![resistor](https://user-images.githubusercontent.com/112545596/193399060-ae309786-d40e-4b21-9dd0-3829c75b1578.jpeg)
 
--> The resistor that i used for this experinment is 10k ohm resistor and the resistor varies based on the ohm's like 1k ohm, 5k ohm's etc..
+-> The resistor that I used for this experiment is 10k ohm resistor and the resistor varies based on the ohm's like 1k ohm, 5k ohm's etc..
 
 
 
@@ -164,7 +164,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> In the Jumper wires there are male to male, male to female and female to female.
+-> In the Jumper wires there are different variations like male to male, male to female and female to female.
 
 
 
@@ -174,7 +174,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 # Circuit diagram of microcontroller to analog device
 
 
--> I am using 4-pin DHT11 sensor connect the circuit as shown in the below circuit diagram.
+-> I am using 4-pin DHT11 sensor to connect the circuit as shown in the below circuit diagram.
 
 
 <img width="1319" alt="diagram" src="https://user-images.githubusercontent.com/112545596/193399328-df36b068-0871-441b-ab31-90ab5d7ddfd5.png">
@@ -188,7 +188,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 -> Place 10K Ohm Resistor between DHT11 PIN 1 and PIN 2.
 
 
--> This is my circuit diagram after all connections.
+-> This is my circuit diagram after all the connections.
 
 
 
@@ -225,7 +225,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> Now we are downloading the WiringPi which is in GIT, to get it we need to install GIT by using this command:
+-> Download the WiringPi which is in GIT, to install this we need to install GIT beforehand by using the command below:
 
       sudo apt-get install git-core
       
@@ -253,9 +253,9 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
         sudo apt-get upgrade
         
         
- -> The GIT link that i used is https://github.com/WiringPi/WiringPi
+ -> The GIT link that I used is https://github.com/WiringPi/WiringPi
  
- -> Now use the above link to clone the repository into your PI
+ -> Use the below link to clone the repository into your PI
  
             git clone https://github.com/WiringPi/WiringPi
             
@@ -279,7 +279,7 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 <img width="1440" alt="wirepi install" src="https://user-images.githubusercontent.com/112545596/193401042-ef5d541e-0f1f-4d2e-84e5-8e3e9153c699.png">
 
--> Here i just installed the WiringPi in my DietPi using sudo DietPi software
+-> I installed the WiringPi in my DietPi using sudo DietPi software
 
 
 
@@ -306,11 +306,11 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> After cloning the repository, we are going to write the code by using nano command and save it in the wiringpi directory
+-> After cloning the repository, write the code by using nano command and save it in the wiringpi directory
 
         cd WiringPi
         
--> Now we nned to write the code for temperature and humidity using the nano command. Here an empty text area appears where you need to enter the code. 
+-> Later, write the code for temperature and humidity in the empty text area using the nano command.
 
         nano temp.c // Here temp is the program name.
         
@@ -341,11 +341,11 @@ Reference : https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-P
 
 
 
--> In the program you need to change the counter from 16 to 50. 
+-> In the program, change the counter from 16 to 50. 
 
         if(counter > 16) to if (counter > 50)
         
--> Now execute the program by running the following commands:
+-> Execute the program by running the following commands:
 
         for compliation : gcc -o example example.c -lwiringPi -lwiringPiDev // Here the example is the program name. You can enter your program name.
         
