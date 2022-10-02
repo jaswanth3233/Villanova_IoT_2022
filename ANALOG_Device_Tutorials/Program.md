@@ -1,17 +1,27 @@
 #include <wiringPi.h>
+
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <stdint.h>
+
 #define MAXTIMINGS	85
+
 #define DHTPIN		7
+
 int dht11_dat[5] = { 0, 0, 0, 0, 0 };
  
 void read_dht11_dat()
+
 {
-	uint8_t laststate	= HIGH;
-	uint8_t counter		= 0;
-	uint8_t j		= 0, i;
-	float	f; 
+     uint8_t laststate = HIGH;
+	
+   uint8_t counter = 0;
+	
+   uint8_t j = 0, i;
+	
+   float f; 
  
    dht11_dat[0] = dht11_dat[1] = dht11_dat[2] = dht11_dat[3] = dht11_dat[4] = 0;
  
@@ -35,21 +45,21 @@ void read_dht11_dat()
    while ( digitalRead( DHTPIN ) == laststate )
 		
    {
-			counter++;
+    counter++;
 			
-        delayMicroseconds( 1 );
+   delayMicroseconds( 1 );
 			
-      if ( counter == 255 )
+   if ( counter == 255 )
 			
-      {
-				break;
-			}
-		}
+   {
+	break; 
+   }
+}
     
-		laststate = digitalRead( DHTPIN );
+laststate = digitalRead( DHTPIN );
  
-		if ( counter == 255 )
-			break;
+if ( counter == 255 )
+    break;
  
 if ( (i >= 4) && (i % 2 == 0) )
 		
