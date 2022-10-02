@@ -272,4 +272,84 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> 
+-> Now you will be receiving the message that uploading is completed and after that click the "Serial Monitor" on the top right conor
+
+
+
+
+
+
+
+
+
+
+![serial monitor](https://user-images.githubusercontent.com/112545596/193433136-13b2716b-ec81-42f4-bb2a-71d502fe8393.jpg)
+
+
+
+
+
+
+
+
+-> Here is the important step we need to change the baud rate to 115200.
+
+
+
+
+
+
+
+
+
+![baud rate](https://user-images.githubusercontent.com/112545596/193433227-6660b2da-79a7-4ae4-b4ae-883d42e54f1f.png)
+
+
+
+
+
+
+
+
+
+
+-> After setting all the things we will now see the Temperature and Humidity readings
+
+
+
+
+
+
+
+
+
+![output-1](https://user-images.githubusercontent.com/112545596/193433246-2de32aee-b03d-40b9-b566-936142016fc6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+![output-2](https://user-images.githubusercontent.com/112545596/193433249-60d2556b-8d3a-4304-b2e1-d4590a9606de.png)
+
+
+
+
+
+
+
+
+
+# Reference
+
+-> The Freenove Ultimate Starter Kit: [Guide](file:///C:/Users/sunka/Desktop/IOT/Freenove_Ultimate_Starter_Kit_for_ESP32-master/C/C_Tutorial.pdf)
+
+
+
+
