@@ -119,3 +119,157 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
+-> Now connect the ESP32 to the laptop using the USB cable.
+
+-> After connection, we need to select the port of the usb cable by clicking tools and then select the port and then select the COM3 port.
+
+* Tools -> Port -> Select "COM3".
+
+
+
+
+
+
+
+
+![port](https://user-images.githubusercontent.com/112545596/193432149-e584eec5-8e33-4457-a713-83bef86cef7f.png)
+
+
+
+
+
+
+
+
+
+-> Now download the git repository / external library by using the below link :
+
+           http://github.com/beegee-tokyo/DHTesp
+           
+ ## or
+ 
+ -> Simply go to library Manager and search for DHT 
+ 
+     * library manager -> Search " DHT " -> Install.
+     
+     
+     
+     
+     
+     
+ 
+ 
+ 
+ ![external library](https://user-images.githubusercontent.com/112545596/193432330-8047af6c-c34d-4f77-ae71-8a2b064e0aba.png)
+
+
+
+
+
+
+
+
+
+
+
+## Circuit Diagram or Connections
+
+
+
+-> 
+
+->
+
+->
+
+->
+
+
+
+-> Reference:
+
+
+
+
+
+
+
+
+
+
+![circuit-diagram](https://user-images.githubusercontent.com/112545596/193432451-7968a73b-3549-4d70-a294-bf7911cd9b80.png)
+
+
+
+
+
+
+
+
+
+## Program
+
+
+-> To view the code : [program](https://github.com/jaswanth3233/Villanova_IoT_2022/blob/main/ANALOG_Device_Tutorials/Temperature%20and%20Humidity%20sensor%20using%20Arduino/Program.md)
+
+
+
+
+
+
+
+
+
+
+
+-> To compile or to verify the code use the check mark or tick mark on the top left conner.
+
+
+
+
+
+
+
+
+
+![compiling or verify](https://user-images.githubusercontent.com/112545596/193432611-01de20ac-0484-4b23-aa87-769c23bb41c6.png)
+
+
+
+
+
+
+
+
+
+![compilation and verification complete](https://user-images.githubusercontent.com/112545596/193432616-7f53ecf8-436f-4242-a2b8-01e5945cb670.png)
+
+
+
+
+
+
+
+
+
+-> use the Arrow mark which is beside the check mark to upload the content to the ESP32
+
+
+
+
+
+
+
+
+
+![upload](https://user-images.githubusercontent.com/112545596/193432659-cba653da-6a30-4e46-8ce4-5d2c8c44a564.png)
+
+
+
+
+
+
+
+
+
+-> 
