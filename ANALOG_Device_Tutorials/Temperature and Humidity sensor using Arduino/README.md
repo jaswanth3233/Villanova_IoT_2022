@@ -207,6 +207,17 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
+![circuit](https://user-images.githubusercontent.com/112545596/193436914-e0362d7d-1c2f-4e7c-995c-2115fbb4b457.jpg)
+
+
+
+
+
+
+
+
+
+
 ## Program
 
 
