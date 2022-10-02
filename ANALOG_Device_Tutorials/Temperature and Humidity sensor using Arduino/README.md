@@ -176,13 +176,12 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> 
+-> Now pin 1 (vcc) of the DHT11 connect it based on the circuit diagram and also make a ground connection.
 
-->
+-> Now connect the pin 2 (signal) to the port number 13 of the ESP32.
 
-->
+-> pin 4 is connected to the ground.
 
-->
 
 
 
