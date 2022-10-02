@@ -43,7 +43,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 -> In the Arduino go to Files and then from files to Preferences. And in the Preferences add the below given link in the Additional boards manager URL's and also u can     change the location of the .ino files in your own directory.
 
-* Files -> Preferences -> Additional Boards Manager URL's -> Add the url  
+            * Files -> Preferences -> Additional Boards Manager URL's -> Add the url  
 
             https://dl.espressif.com/dl/package_esp32_index.json
    
@@ -68,7 +68,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
  
 -> Now go to tools and then navigate to Board and then navigate to Boards Manager and then search for "ESP32 by Espressif Systems" and then install.
 
-* Tools -> Board -> Boards Manager -> Search " ESP32 by Espressif Systems " -> Install.
+            * Tools -> Board -> Boards Manager -> Search " ESP32 by Espressif Systems " -> Install.
 
 
 
@@ -99,7 +99,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 -> We need to select the ESP32 by going to tools from then go to Board and then ESP32 and select the ESP32 Wrover module.
 
-* Tools -> Board -> ESP32 -> Select ESP32 Wrover Module.
+            * Tools -> Board -> ESP32 -> Select ESP32 Wrover Module.
 
 
 
@@ -123,7 +123,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 -> After connection, we need to select the port of the usb cable by clicking tools and then select the port and then select the COM3 port.
 
-* Tools -> Port -> Select "COM3".
+            * Tools -> Port -> Select "COM3".
 
 
 
