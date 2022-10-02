@@ -348,7 +348,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 # Reference
 
--> The Freenove Ultimate Starter Kit: [Guide] (file:///C:/Users/sunka/Desktop/IOT/Freenove_Ultimate_Starter_Kit_for_ESP32-master/C/C_Tutorial.pdf)
+-> The Freenove Ultimate Starter Kit: [Guide](file:///C:/Users/sunka/Desktop/IOT/Freenove_Ultimate_Starter_Kit_for_ESP32-master/C/C_Tutorial.pdf)
 
 
 
