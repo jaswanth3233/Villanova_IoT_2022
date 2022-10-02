@@ -1,6 +1,6 @@
 # Testing temperature and Humidity Sensor by using Arduino Software
 
-The process is same as the wiringpi, but there will be slight changes in the circuit diagram and we re going to use the ESP32.
+The process is same as wiringpi, but there are slight changes in the circuit diagram. We are going to use ESP32.
 
 ## Hardware Requirements
 
@@ -23,7 +23,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> After downloading, unzip the folder and then install the Arduino IDE Application.After installation the result will be 
+-> After downloading, unzip the folder and then install the Arduino IDE Application. After installation the result is shown in the below image.
 
 
 
@@ -41,7 +41,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> In the Arduino go to Files and then from files to Preferences. And in the Preferences add the below given link in the Additional boards manager URL's and also u can     change the location of the .ino files in your own directory.
+-> In the Arduino, go to Files and then to Preferences. In the Preferences add the below given link in the Additional boards manager URL's and you can also change the location of .ino files to any directory of your choice.
 
             * Files -> Preferences -> Additional Boards Manager URL's -> Add the url  
 
@@ -66,7 +66,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
  
  
  
--> Now go to tools and then navigate to Board and then navigate to Boards Manager and then search for "ESP32 by Espressif Systems" and then install.
+-> Next, go to tools and then navigate to Board, and then navigate to Boards Manager, and then search for "ESP32 by Espressif Systems", and then install.
 
             * Tools -> Board -> Boards Manager -> Search " ESP32 by Espressif Systems " -> Install.
 
@@ -97,7 +97,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> We need to select the ESP32 by going to tools from then go to Board and then ESP32 and select the ESP32 Wrover module.
+-> Select the ESP32 by going to tools, and then to Board, and then to ESP32, and select the ESP32 Wrover module.
 
             * Tools -> Board -> ESP32 -> Select ESP32 Wrover Module.
 
@@ -119,9 +119,9 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> Now connect the ESP32 to the laptop using the USB cable.
+-> Connect the ESP32 to laptop using the USB cable.
 
--> After connection, we need to select the port of the usb cable by clicking tools and then select the port and then select the COM3 port.
+-> After connection, select the port of the usb cable by clicking tools and then select the port, and then select the COM3 port.
 
             * Tools -> Port -> Select "COM3".
 
@@ -176,9 +176,9 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> Now pin 1 (vcc) of the DHT11 connect it based on the circuit diagram and also make a ground connection.
+-> connect pin 1 (vcc) of the DHT11 based on the circuit diagram and also make a ground connection.
 
--> Now connect the pin 2 (signal) to the port number 13 of the ESP32.
+-> Connect the pin 2 (signal) to the port number 13 of the ESP32.
 
 -> pin 4 is connected to the ground.
 
@@ -232,7 +232,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> To compile or to verify the code use the check mark or tick mark on the top left conner.
+-> To compile or verify the code use the check mark or tick mark on the top left conner.
 
 
 
@@ -262,7 +262,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> use the Arrow mark which is beside the check mark to upload the content to the ESP32
+-> Use the Arrow mark which is next to check mark to upload the content to ESP32
 
 
 
@@ -282,7 +282,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> Now you will be receiving the message that uploading is completed and after that click the "Serial Monitor" on the top right conor
+-> You will receive the message that uploading is completed. Click the "Serial Monitor" on the top right corner.
 
 
 
@@ -302,7 +302,7 @@ The process is same as the wiringpi, but there will be slight changes in the cir
 
 
 
--> Here is the important step we need to change the baud rate to 115200.
+-> Here is the important step, change the baud rate to 115200.
 
 
 
