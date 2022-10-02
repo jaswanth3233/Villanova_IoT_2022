@@ -356,6 +356,36 @@ The process is same as wiringpi, but there are slight changes in the circuit dia
 
 
 
+
+## Video :
+
+
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/112545596/193445541-8f626d3b-711c-494e-993a-217dd2013b11.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Reference
 
 -> The Freenove Ultimate Starter Kit: [Guide](https://github.com/Freenove/Freenove_Starter_Kit/blob/master/Tutorial.pdf)
@@ -363,3 +393,7 @@ The process is same as wiringpi, but there are slight changes in the circuit dia
 
 
 
+
+## Comparision 
+
+-> According to the things that i went through in the DHT11 sensor with Raspberry PI and with Arduino IDE, I felt easy that using DHT11 sensor with the Arduino IDE is the easiest process. The main reason is its simplicity in doing it.
