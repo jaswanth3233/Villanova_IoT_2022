@@ -1,6 +1,6 @@
 # Building an LWM2M clients on RPI for ESP32
 
--> We are going to build an LWM2M Device using idf and the ANJAY Libraries
+-> We are going to build an light control by using Anjay LWM2M
 
 
 # Procedure
