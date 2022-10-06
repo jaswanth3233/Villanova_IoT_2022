@@ -613,3 +613,79 @@
 
 
 
+-> To turn on the light by clicking "W" in on/off, here we need to specify the boolean value - true or false. And we can set the dimmer to any integer value and click "W" which appers green at buttom.
+
+
+
+
+
+
+
+
+<img width="1440" alt="light on" src="https://user-images.githubusercontent.com/112545596/194411860-345f13bf-00a7-41c9-9dee-101ec2708004.png">
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="entering value bool" src="https://user-images.githubusercontent.com/112545596/194412098-38a21577-1b4f-4422-adba-f34a4e71b380.png">
+
+
+
+
+
+
+
+
+
+
+![on](https://user-images.githubusercontent.com/112545596/194412715-6b8d963c-dae1-4a54-b942-8b49ae46b7fb.jpg)
+
+
+-> To turn of the light then simply enter boolean value as false and then click on "W" it writes and light turn off's.
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="light off" src="https://user-images.githubusercontent.com/112545596/194413008-9e9f855d-7027-4c9e-9e16-ee7abcc974d3.png">
+
+
+
+
+
+
+
+
+
+![off](https://user-images.githubusercontent.com/112545596/194413122-80a538e0-9bee-4454-b9fe-a4f8cccc8077.jpg)
+
+
+
+
+
+
+
+
+
+-> Video:
+
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/112545596/194413242-e33c20cb-cf51-40e0-8bc5-8e73eea0027f.mov
