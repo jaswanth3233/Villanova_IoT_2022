@@ -1,4 +1,4 @@
-# Building an LWM2M clients on RPI for ESP32
+# Light Control Testing using Anjay Client 
 
 -> We are going to build an light control by using Anjay LWM2M
 
