@@ -632,6 +632,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <img width="1440" alt="entering value bool" src="https://user-images.githubusercontent.com/112545596/194412098-38a21577-1b4f-4422-adba-f34a4e71b380.png">
 
 
@@ -643,7 +653,25 @@
 
 
 
+
+
+
+
+
+
+
 ![on](https://user-images.githubusercontent.com/112545596/194412715-6b8d963c-dae1-4a54-b942-8b49ae46b7fb.jpg)
+
+
+
+
+
+
+
+
+
+
+
 
 
 -> To turn of the light then simply enter boolean value as false and then click on "W" it writes and light turn off's.
@@ -658,6 +686,12 @@
 
 
 <img width="1440" alt="light off" src="https://user-images.githubusercontent.com/112545596/194413008-9e9f855d-7027-4c9e-9e16-ee7abcc974d3.png">
+
+
+
+
+
+
 
 
 
