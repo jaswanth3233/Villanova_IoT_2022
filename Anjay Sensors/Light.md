@@ -332,7 +332,7 @@
 
 
        
--> Now go to light control options and we need to select light and select "Red light" and we need to enter the pin number that we had plugged to esp32.
+-> Now go to light control options and we need to select light and select "Red light" and we need to enter the pin number that we had plugged to esp32.Here i had taken red light, you can choose any light blue or anything but while configuring you need to specify the colour.
 
           light control options -> light -> select "Enable red colour" 
           
@@ -356,7 +356,7 @@
 
 
 
-        * light control options -> Red colour pin -> pi number
+        * light control options -> Red colour pin -> pin number
         
         
         
@@ -423,4 +423,193 @@
 
 
 <img width="1440" alt="my network details" src="https://user-images.githubusercontent.com/112545596/194379923-7d076ae7-5499-4847-8ecd-7c37c949ff4c.png">
+
+
+
+
+
+
+
+
+
+
+-> Build the code for the device using
+
+             cd ~/projects/Anjay-esp32-client
+             idf.py build
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+<img width="1440" alt="idf build" src="https://user-images.githubusercontent.com/112545596/194380571-306c14d4-cf1c-4279-a4c6-d822513ff4b1.png">
+
+
+
+
+
+
+
+
+
+-> Fnd the port to perform flashing.
+
+        ls -l /dev/ttyUSB*
+        
+        
+        
+        
+        
+        
+<img width="704" alt="port" src="https://user-images.githubusercontent.com/112545596/192845851-5cfe61a6-0c45-40bc-903f-41a8b41804df.png">
+
+
+
+
+
+
+
+
+
+
+-> change the port number in this line to load the code 
+
+        cd ~/projects/Anjay-esp32-client
+        sudo chmod 666 /dev/ttyUSB0
+        idf.py -p 0 flash
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<img width="1440" alt="flashing" src="https://user-images.githubusercontent.com/112545596/194382152-90328d14-a206-47c6-8c82-19f9a814d583.png">
+
+
+
+
+
+
+
+
+
+-> Now check leshan server for the registration of your esp32.
+
+   * jas is name of my ESP32 which i had named it. 
+
+
+
+
+
+
+
+<img width="1440" alt="esp32 registered" src="https://user-images.githubusercontent.com/112545596/194382580-c47a4400-d3eb-47b0-8917-30c17280c246.png">
+
+
+
+
+
+
+
+
+
+-> And my ESP32 is connected to wifi network.
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="esp32 connected to network" src="https://user-images.githubusercontent.com/112545596/192846763-bb672c67-6d1f-4a26-aee4-d71d24df68c6.png">
+
+
+
+
+
+
+
+
+
+## Circuit Diagram
+
+
+
+-> You need male to male connecting wires
+-> A 220k resistor
+-> ESP32
+-> a light (may be red, blue)
+
+
+
+
+
+<img width="752" alt="circuit diagram of light" src="https://user-images.githubusercontent.com/112545596/194383094-7eee72ad-9cb7-4876-a875-08fd3f94aba5.png">
+
+-> make connections by taking the above diagram as the reference.
+
+
+
+
+
+
+
+
+-> This is my circiut diagram and my connections.
+
+
+
+
+
+
+
+
+![connections](https://user-images.githubusercontent.com/112545596/194383690-34aa6f42-565b-41a5-8e99-ae568e937cca.jpg)
+
+
+
+
+
+
+
+
+
+
+
+## Result
+
+-> On clicking the jas(anjay client) we go to Devices and in the bottom left we see the light control click on it then the interface oage wiil be like this
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="light output interface" src="https://user-images.githubusercontent.com/112545596/194386722-186f5af3-f598-4ee1-a4b0-5855c4acb0c7.png">
+
+
+
+
+
+
+
+
+
 
