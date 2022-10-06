@@ -197,42 +197,28 @@
 
 
 
--> Run the below command to see our PI and i am doing this process in my Dietpi server.
+ -> Run the below command to see our PI
 
- * we start the process by executing the commands
+             ./output/bin/demo --endpoint-name $(hostname) --server-uri coap://leshan.eclipseprojects.io:5683
+             
+             
+             
+             
+             
+             
+ * The one that is highlated is my PI.
 
-        cd ~/projects/leshan
-        java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-dependencies.jar &
 
- * Now enter the url to Connect to Leshan demo UI
 
-          http://RPI_IPADDR:8080
-          
- * Run the leshan client to add it to the page
 
-         java -jar leshan-client-demo/target/leshan-client-demo-*-SNAPSHOT-jar-with-dependencies.jar 
-         
-         
-         
- 
- 
- 
- 
- 
- 
- * In the leshan page we wii be seeing your Dietpi registered
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- <img width="1440" alt="output leshan" src="https://user-images.githubusercontent.com/112545596/192348006-7171421e-03d4-4757-b6df-411e1b8e0345.png">
- 
+
+
+
+
+
+<img width="1440" alt="output" src="https://user-images.githubusercontent.com/112545596/192661684-13005d51-ba30-443c-84cb-6a93f353f180.png">
+
+
  
  
  
@@ -259,7 +245,9 @@
 
 
 
-<img width="1207" alt="local environment" src="https://user-images.githubusercontent.com/112545596/192841448-400c4c87-1c51-413b-ad30-7e5daf362698.png">
+
+
+<img width="1440" alt="exportsh" src="https://user-images.githubusercontent.com/112545596/194372543-140ae3e5-c908-4838-95df-445656b897ef.png">
 
 
 
@@ -271,8 +259,8 @@
 
 
 
+<img width="1106" alt="set-target" src="https://user-images.githubusercontent.com/112545596/194372670-75f9e9af-36b3-4d13-87ef-8b27fc834e71.png">
 
-<img width="1166" alt="idfpysettarget" src="https://user-images.githubusercontent.com/112545596/192841751-3199d203-a2f7-4882-b6ab-0ef1f62cb868.png">
 
 
 
