@@ -307,22 +307,11 @@
 
 
 
-* navigate to "Component->" and select config/anjay-esp32-client:
+-> navigate to "Component->" and select config/anjay-esp32-client:
         
-        Setup your config to be: (anjay-esp32-client) Endpoint name (coap://{LESHAN_SERVER_IP}:5683) Server URI Choose socket (UDP) ---> Choose security mode (Non-secure connection) --->
-
-        navigate to "Board - > "
-
-        navigate to "Client options ->"
-
-
-
-
-
-
-
-
-<img width="1440" alt="client options" src="https://user-images.githubusercontent.com/112545596/192843523-57a3e78c-f638-439e-846b-a03586af4664.png">
+       * navigate to Board options then we nedd to select the "light control enable" 
+       
+       Board options -> select " light control enable "
 
 
 
@@ -333,21 +322,51 @@
 
 
 
+<img width="1440" alt="selecting light" src="https://user-images.githubusercontent.com/112545596/194375058-cad4a602-2c4e-41f9-ad4c-04d6204389a1.png">
 
-        Change Server URI from coaps://try-anjay.avsystem.com:5684 to coaps://YOUR_LESHAN_SERVER_IP_ADDR:5684 I used coaps://192.168.8.224:5684 Your IP my         be different
+
+
+
+
+
+
+
+       
+-> Now go to light control options and we need to select light and select "Red light" and we need to enter the pin number that we had plugged to esp32.
+
+          light control options -> light -> select "Enable red colour" 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+<img width="1440" alt="red color light" src="https://user-images.githubusercontent.com/112545596/194376602-bfba3865-9583-48a4-965b-43edd53080c1.png">
+
         
         
         
         
+
+
+
+
+        * light control options -> Red colour pin -> pi number
         
         
         
-        
-        
-        
-        
-        
-<img width="1213" alt="change url" src="https://user-images.githubusercontent.com/112545596/192844457-8f234a45-7f03-46ce-af80-c5db58f17b6f.png">
+
+
+
+
+
+
+<img width="1440" alt="pin number of light" src="https://user-images.githubusercontent.com/112545596/194377295-1772d1a6-3afa-47d2-8d50-4973f8d196e1.png">
 
 
 
@@ -357,7 +376,28 @@
 
 
 
-* navigate to "WiFi ->" To enter your IOT ROUTER WIFI SSID and key to allow the esp32 acccess to your router and PI.
+
+-> navigate to Client options
+
+   * Change Server URI from coaps://try-anjay.avsystem.com:5684 to coaps://YOUR_LESHAN_SERVER_IP_ADDR:5684 I used coaps://192.168.8.224:5684 Your IP my be          different.
+   * In my case i had taken my own dietpi server ip address.
+   
+              coad://192.168.8.198:5683 
+              
+   * And you may or may not change endpoint name. But i suggest you to change the name for better understanding
+   * URI Choose socket (UDP) ---> 
+   * Choose security mode (Non-secure connection) --->
+   * make sure these are entered correct, if you entered them wrong then you will not get output.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+<img width="1440" alt="esp32 details" src="https://user-images.githubusercontent.com/112545596/194379123-2a60fe21-da31-4959-a3d7-160b1c971346.png">
 
 
 
@@ -367,9 +407,20 @@
 
 
 
-<img width="1440" alt="wifi" src="https://user-images.githubusercontent.com/112545596/192844811-2e13a5f0-61af-48c8-b6fe-97e581764735.png">
+-> navigate to "WiFi" :
+
+   * Here we need to enter the SSID and password of our router.
+  
+             WIFI -> SSID -> Password
+  
+  
+  
+  
+  
+  
 
 
 
 
+<img width="1440" alt="my network details" src="https://user-images.githubusercontent.com/112545596/194379923-7d076ae7-5499-4847-8ecd-7c37c949ff4c.png">
 
