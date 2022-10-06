@@ -197,26 +197,49 @@
 
 
 
--> Run the below command to see our PI
+-> Run the below command to see our PI and i am doing this process in my Dietpi server.
 
-             ./output/bin/demo --endpoint-name $(hostname) --server-uri coap://leshan.eclipseprojects.io:5683
-             
-             
-             
-             
-             
-             
- * The one that is highlated is my PI.
+ * we start the process by executing the commands
 
+        cd ~/projects/leshan
+        java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-dependencies.jar &
 
+ * Now enter the url to Connect to Leshan demo UI
 
+          http://RPI_IPADDR:8080
+          
+ * Run the leshan client to add it to the page
 
-
-
-
-
-
-<img width="1440" alt="output" src="https://user-images.githubusercontent.com/112545596/192661684-13005d51-ba30-443c-84cb-6a93f353f180.png">
+         java -jar leshan-client-demo/target/leshan-client-demo-*-SNAPSHOT-jar-with-dependencies.jar 
+         
+         
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ * In the leshan page we wii be seeing your Dietpi registered
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <img width="1440" alt="output leshan" src="https://user-images.githubusercontent.com/112545596/192348006-7171421e-03d4-4757-b6df-411e1b8e0345.png">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
                
 ## Build the ANJAY client
@@ -361,71 +384,4 @@
 
 
 
-
-
-
-
-
-
--> Build code:
-
-        cd ~/projects/Anjay-esp32-client
-        idf.py build
-        
-        
-        
-        
-        
-        
--> Fnd the port and perform flashing.
-
-        ls -l /dev/ttyUSB*
-        
-        
-        
-        
-        
-        
-  <img width="704" alt="port" src="https://user-images.githubusercontent.com/112545596/192845851-5cfe61a6-0c45-40bc-903f-41a8b41804df.png">
-
-
-
-
-
-
-
-
-
--> change the port number in this line to load the code 
-
-        cd ~/projects/Anjay-esp32-client
-        sudo chmod 666 /dev/ttyUSB0
-        idf.py -p 0 flash
-        
-        
-        
-        
-        
-        
-        
-        
-<img width="1440" alt="flashing" src="https://user-images.githubusercontent.com/112545596/192846242-b94b8959-b2ce-4c01-8279-3e7064dad443.png">
-
-
-
-
-
-
-
-
--> I found my esp32 connected to my wifi network
-
-
-
-
-
-
-
-
-<img width="1440" alt="esp32 connected to network" src="https://user-images.githubusercontent.com/112545596/192846763-bb672c67-6d1f-4a26-aee4-d71d24df68c6.png">
 
