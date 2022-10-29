@@ -589,7 +589,7 @@
 
 ## Result
 
--> On clicking the jas(anjay client) we go to Devices and in the bottom left we see the light control click on it then the interface oage wiil be like this
+-> On clicking the jas(anjay client) we go to Devices and in the bottom left we see the light control click on it then the interface opens and it wiil be like this
 
 
 
