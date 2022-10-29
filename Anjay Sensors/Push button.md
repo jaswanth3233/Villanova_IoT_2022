@@ -556,3 +556,15 @@
 
 
 
+On clicking the jas(anjay client) we go to Devices and in the bottom left we see the light control click on it then the interface opens and it wiil be like this
+
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="button output-interface" src="https://user-images.githubusercontent.com/112545596/198815220-7cbfa0db-3ffa-4a49-8b49-20be45079869.png">
