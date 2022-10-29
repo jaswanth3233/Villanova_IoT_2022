@@ -526,7 +526,7 @@
 
 -> You need male to male connecting wires
 
--> A 220k resistor
+-> 2 220k resistor
 
 -> ESP32
 
