@@ -311,7 +311,7 @@
         
        * navigate to Board options then we nedd to select the "light control enable" 
        
-       Board options -> select " light control enable "
+       Board options -> select " Push Button enable "
 
 
 
@@ -322,7 +322,8 @@
 
 
 
-<img width="1440" alt="selecting light" src="https://user-images.githubusercontent.com/112545596/194375058-cad4a602-2c4e-41f9-ad4c-04d6204389a1.png">
+![pushbutton](https://user-images.githubusercontent.com/112545596/198793589-a5897522-f07a-43f2-afec-b8ae856150d3.jpeg)
+
 
 
 
@@ -332,41 +333,18 @@
 
 
        
--> Now go to light control options and we need to select light and select "Red light" and we need to enter the pin number that we had plugged to esp32.Here i had taken red light, you can choose any light blue or anything but while configuring you need to specify the colour.
+-> Now enter the pin number that is connected to esp32 
 
-          light control options -> light -> select "Enable red colour" 
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-<img width="1440" alt="red color light" src="https://user-images.githubusercontent.com/112545596/194376602-bfba3865-9583-48a4-965b-43edd53080c1.png">
+       
+       
+       
+       
+       
+       
+       
+       
+ <img width="1440" alt="pin number of button " src="https://user-images.githubusercontent.com/112545596/198794753-c85753f9-959e-421f-9891-b200574e76ec.png">
 
-        
-        
-        
-        
-
-
-
-
-        * light control options -> Red colour pin -> pin number
-        
-        
-        
-
-
-
-
-
-
-<img width="1440" alt="pin number of light" src="https://user-images.githubusercontent.com/112545596/194377295-1772d1a6-3afa-47d2-8d50-4973f8d196e1.png">
 
 
 
