@@ -608,3 +608,26 @@ On clicking the jas(anjay client) we go to Devices and in the bottom left we see
 
 
 <img width="1440" alt="button output-3" src="https://user-images.githubusercontent.com/112545596/198815784-47c773a8-008c-47c1-a07b-1a065684c02a.png">
+
+
+
+
+
+
+
+
+
+## Video
+
+
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/112545596/198816368-806896c6-8477-49d7-8099-d19437ac71df.mov
+
