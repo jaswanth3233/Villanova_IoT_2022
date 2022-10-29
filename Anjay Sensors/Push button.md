@@ -525,7 +525,10 @@
 
 
 -> You need male to male connecting wires
+
 -> A 220k resistor
+
 -> ESP32
+
 -> A Push Button 
 
