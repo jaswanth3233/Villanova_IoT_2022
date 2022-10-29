@@ -333,7 +333,7 @@
 
 
        
--> Now enter the pin number that is connected to esp32 
+-> Now enter the pin number that is connected to esp32 and i had inserted into pin 35.
 
        
        
@@ -531,4 +531,28 @@
 -> ESP32
 
 -> A Push Button 
+
+
+
+
+
+
+
+
+
+
+
+![circuit diagram](https://user-images.githubusercontent.com/112545596/198814898-4aa27c1c-763b-4215-9b42-3a07d56b62b6.jpg)
+
+
+
+
+
+
+
+
+
+## Result
+
+
 
