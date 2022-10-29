@@ -577,7 +577,7 @@ On clicking the jas(anjay client) we go to Devices and in the bottom left we see
 
 
 
--> Now select the data input state to false and now click the button to record how many times the button is clicked. In this i had clicked the button 4 times and in the 
+-> Now select the Digital Input State to false and now click the button to record how many times the button is clicked. In this i had clicked the button 4 times and in the you can see the result (no of clickes) in the Digital Input Counter.
 
 
 
