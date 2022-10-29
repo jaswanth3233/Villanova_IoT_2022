@@ -568,3 +568,23 @@ On clicking the jas(anjay client) we go to Devices and in the bottom left we see
 
 
 <img width="1440" alt="button output-interface" src="https://user-images.githubusercontent.com/112545596/198815220-7cbfa0db-3ffa-4a49-8b49-20be45079869.png">
+
+
+
+
+
+
+
+
+
+-> Now select the data input state to false and now click the button to record how many times the button is clicked. In this i had clicked the button 4 times and in the 
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="button output-1" src="https://user-images.githubusercontent.com/112545596/198815655-f0c73329-72e9-4885-b61e-aaf8102e1786.png">
