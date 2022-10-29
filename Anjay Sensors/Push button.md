@@ -588,3 +588,23 @@ On clicking the jas(anjay client) we go to Devices and in the bottom left we see
 
 
 <img width="1440" alt="button output-1" src="https://user-images.githubusercontent.com/112545596/198815655-f0c73329-72e9-4885-b61e-aaf8102e1786.png">
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="button output-2" src="https://user-images.githubusercontent.com/112545596/198815779-64795ca5-971b-457f-8089-4b0cf4a81606.png">
+
+
+
+
+
+
+
+
+
+<img width="1440" alt="button output-3" src="https://user-images.githubusercontent.com/112545596/198815784-47c773a8-008c-47c1-a07b-1a065684c02a.png">
